@@ -67,8 +67,8 @@ function startTimer() {
         }
     }, 1000); // Repeat every second
 }
-// Function to reset the state for the next question
-function resetState() {
+// Function to reset the state for the next question//
+function resetState() {s
     nextButton.classList.add('hide');
     submissionCheckbox.checked = false;
     clearInterval(timerInterval);
